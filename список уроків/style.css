@@ -1,0 +1,51 @@
+
+.lesson-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.lesson-container li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px;
+}
+
+.lesson-container ul:nth-child(1) li {
+    background-color: #FFD700;
+}
+
+.lesson-container ul:nth-child(2) li {
+    background-color: #90EE90;
+}
+
+.lesson-container ul:nth-child(3) li {
+    background-color: #87CEEB;
+}
+
+.lesson-container ul:nth-child(4) li {
+    background-color: #FFA07A;
+}
+
+.lesson-container ul:nth-child(5) li {
+    background-color: #F0E68C;
+}
+.lesson-container ul:hover li {
+    background-color: #ADD8E6;
+}
+
+.lesson-container ul:first-child li {
+    color: red;
+}
+
+.lesson-container ul:last-child li {
+    color: green;
+}
+
+.lesson-container ul:nth-child(2n) li {
+    color: purple;
+}
+
+.lesson-container ul:nth-child(2n+1) li {
+    color: orange;
+}
